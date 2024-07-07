@@ -1,0 +1,1593 @@
+<resources>
+    <string name="app_name">BarZar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="welcome_txt">Անհրաժեշտ է գցել զառը(սեղմել զառի վրա), կատարել զառի միջոցով ընտրված առաջադրանքը և միավորներ հավաքել:Առաջադրանքի համար նախատեսված ժամանակը, խմբերի անունները և միավորը ընտրում եք դուք՝ սեղմելով համապատասխան կոճակի վրա։ Կհաղթի ամենաշատ միավորներ հավաքած խումբը։</string>
+    <string name="intro_yesno_txt">Բառը կամ արտահայտությունը գուշակելու համար թիմակիցները պետք է հարցեր տան բառը կարդացողին։ Վերջինս կարող է պատասխանել այո, ոչ կամ կարևոր չէ։ Առաջադրանքի բառերն ու բառակապակցություննեը ներառված են որոշակի թեմաների մեջ, որոնք նշված են էկրանին։ Պահանջվում է նախապես բարձրաձայնել թեման։</string>
+    <string name="paimt_intro_text">Բացատրե՛ք բառը միայն նկարելու միջոցով։</string>
+    <string name="pantomime_intro_txt">Բացատրե՛ք բառը ժեստերով առանց խոսքերի և ձայների։ Չի թույլատրվում մատնացույց անել իրը կամ երևույթը։</string>
+    <string name="alias_intro_txt">Բացատրե՛ք էկրանի վրա նշված բոլոր բառերը կամ արտահայտությունները։Առաջադրանքի բառերը ներառված են որոշակի թեմաների մեջ, և նախքան բացատրելը, պետք է թիմակիցներին ասել, թե ինչ թեմա է նշված։ Միավոր ստանալու համար պահանջվում է բացատրել էկրանի վրա նշված ԲՈԼՈՐ բառերը։</string>
+    <string name="choose_intro_txt">Ընտրում եք առաջադրանքը ։ Հաջողության դեպքում վաստակում եք միավորը, հակառակ դեպքում միավորը հանվում է:</string>
+    <string name="reverse_intro_txt">Բարձրաձայն կարդացե՛ք հակառակ գրված բառը։Թիմակիցները պետք է կռահեն, թե ինչ բառ էր գրված։</string>
+    <string-array name="array_reversed">
+        <item>կառակահ</item>
+        <item>ցոնկա</item>
+        <item>սոխառեհ</item>
+        <item>նորտաթոնիկ</item>
+        <item>ղեդնկմ</item>
+        <item>րազագ</item>
+        <item>հապավշահ</item>
+        <item>սապրադ</item>
+        <item>րիգանրեվ</item>
+        <item>աիցամորֆնի</item>
+        <item>նապրգ</item>
+        <item>թյագառաճ</item>
+        <item>նույթումտապ</item>
+        <item>ինվաղա</item>
+        <item>նույթուտազա</item>
+        <item>րյավաջիմ</item>
+        <item>նորտնեկ</item>
+        <item>կայնեսաջնն</item>
+        <item>նականգօնա</item>
+        <item>տարբերություն</item>
+        <item>քրեզեիտ</item>
+        <item>ջղումաջղա</item>
+        <item>ռածանոտ</item>
+        <item>թոնածնա</item>
+        <item>սոխասադ</item>
+        <item>կալերեվ</item>
+        <item>րոտինոմ</item>
+        <item>դնազանհ</item>
+        <item>անահաք</item>
+        <item>թագագանռել</item>
+        <item>կիբմազ</item>
+        <item>ղոշաևրա</item>
+        <item>քղուդնասաժրաշ</item>
+        <item>կիպաշանրեվ</item>
+        <item>տյախարմրակ</item>
+        <item>թիկնկձ</item>
+        <item>նեղեկաշուրհ</item>
+        <item>կայնոկ</item>
+        <item>պեվարիս</item>
+        <item>նահավ</item>
+        <item>գրամարիս</item>
+        <item>փոփմասուլ</item>
+        <item>րյամածավտսա</item>
+        <item>քնութրշ</item>
+        <item>թոփշալիշ</item>
+        <item>նայակամոտա</item>
+        <item>տապանակա</item>
+        <item>րուջաևրձնա</item>
+        <item>քինամանռաս</item>
+        <item>կիրոթոփ</item>
+        <item>ղեղեհրջ</item>
+        <item>գրակասիծ</item>
+        <item>չիթրաթ</item>
+        <item>կաժաբ</item>
+        <item>ադնապ</item>
+        <item>կացուց</item>
+        <item>լակազամ</item>
+        <item>տյափանռեձ</item>
+        <item>ուկրարեվ</item>
+        <item>րոլքա</item>
+        <item>րապշ</item>
+        <item>սոնաիկվօ</item>
+        <item>լակավոծ</item>
+        <item>չիգրակամահ</item>
+        <item>նարառաբ</item>
+        <item>տեգարգ</item>
+        <item>լոբտուֆ</item>
+        <item>րոտարեպօ</item>
+        <item>նարկէ</item>
+        <item>ռումիրջ</item>
+        <item>աիրոզուֆնի</item>
+        <item>կանաճրտա</item>
+        <item>րուգնագ</item>
+        <item>կասույապ</item>
+        <item>իրախթիվ</item>
+        <item>րվազոնիդ</item>
+        <item>ցյուցամաժ</item>
+        <item>բմաղակ</item>
+        <item>ցոնզվ</item>
+        <item>կատխատարգ</item>
+        <item>նույթուսետց</item>
+        <item>նայտամասադ</item>
+        <item>րեկատրս</item>
+        <item>մուրովատրոս</item>
+        <item>վիշահարնահ</item>
+        <item>պաշիվ</item>
+        <item>նույթուրգարակն</item>
+        <item>ձնախան</item>
+        <item>նությեզ</item>
+        <item>ռույփեզ</item>
+        <item>կիրրմ</item>
+        <item>կացուցանգ</item>
+        <item>կանապաթղթ</item>
+        <item>կածյակ</item>
+        <item>կիցոռեձնա</item>
+        <item>կիջղչ</item>
+        <item>տեֆնոկ</item>
+        <item>րոձնխ</item>
+        <item>տշիժարե</item>
+        <item>ռաթիկ</item>
+        <item>լիֆոտրակ</item>
+        <item>ցյուցատսուռեհ</item>
+        <item>րատինամուհ</item>
+        <item>տարապաոտոֆ</item>
+        <item>տյափագուզ</item>
+        <item>նոթարամ</item>
+        <item>րինոթ</item>
+        <item>նուտացահ</item>
+        <item>կարտատ</item>
+        <item>վառգա</item>
+        <item>րյուգարավ</item>
+        <item>գնուրավ</item>
+        <item>կիլոլ</item>
+        <item>շավալ</item>
+        <item>ծավորոխ</item>
+        <item>ամրուաշ</item>
+        <item>դալոկոշ</item>
+        <item>տրոգ</item>
+        <item>շուքնք</item>
+        <item>ցյուցարօ</item>
+        <item>վինածեհ</item>
+        <item>կամիդ</item>
+        <item>ցյուցասուլ</item>
+        <item>նույթուղոշիհ</item>
+        <item>նաձրա</item>
+        <item>տսեվրա</item>
+        <item>նուտենիգ</item>
+        <item>րուջերագ</item>
+        <item>ճրուս</item>
+        <item>տշիվ</item>
+        <item>նակակյահ</item>
+        <item>նատսայաՀ</item>
+        <item>կուլեվա</item>
+        <item>կինռոթ</item>
+        <item>կիղած</item>
+        <item>կիրյահ</item>
+        <item>կանռեծիծ</item>
+        <item>կիրյուք</item>
+        <item>նաձղեդ</item>
+        <item>ջիջբ</item>
+        <item>րոտխս</item>
+        <item>մատա</item>
+        <item>նիսուլ</item>
+        <item>րավախ</item>
+        <item>նակեգոհ</item>
+        <item>քիծրոգ</item>
+        <item>րաշանղետս</item>
+        <item>րումանշադ</item>
+        <item>նյուշադ</item>
+        <item>կազին</item>
+        <item>րեվն</item>
+        <item>ափմաճ</item>
+        <item>ինատամ</item>
+        <item>մզակ</item>
+        <item>կնուրկ</item>
+        <item>կնուռկ</item>
+        <item>կիշոկ</item>
+        <item>տսուգահ</item>
+        <item>քրագուտս</item>
+        <item>ինադնեկ</item>
+        <item>նույթունբ</item>
+        <item>կիպակ</item>
+        <item>կանաբ</item>
+        <item>րովնիզ</item>
+        <item>կիմզառ</item>
+        <item>ինուրեծ</item>
+        <item>կիտատ</item>
+        <item>ղեգտ</item>
+        <item>կիցեղեգ</item>
+        <item>րոփեշ</item>
+        <item>ցոնևթ</item>
+        <item>կաթուջ</item>
+        <item>կշիժբ</item>
+        <item>րեհախթ</item>
+        <item>ռազ</item>
+        <item>կաճոկ</item>
+        <item>գրակամահ</item>
+        <item>կավողոխ</item>
+        <item>ղոդավնա</item>
+        <item>ժրաշարկրե</item>
+        <item>կանիկշաթ</item>
+        <item>թավագ</item>
+        <item>րովանութ</item>
+        <item>գարյավ</item>
+        <item>րիվասրավ</item>
+        <item>գարակ</item>
+        <item>րինապ</item>
+        <item>նուծամ</item>
+        <item>տնեմելէ</item>
+        <item>կանահավ</item>
+        <item>տիխաթրաղաս</item>
+        <item>չիխոփադօ</item>
+        <item>նիսուլաիլ</item>
+        <item>փեճրս</item>
+        <item>կանաթղահ</item>
+        <item>նույթուտրապ</item>
+        <item>քնոհ</item>
+        <item>չիրովաքցիլ</item>
+        <item>հագզադ</item>
+        <item>թղութարավտս</item>
+        <item>ղեթիթալյափ</item>
+        <item>ռեթիթ</item>
+        <item>իհուրապ</item>
+        <item>կատսապան</item>
+        <item>սոլիդրոկոկ</item>
+        <item>րույջղեգնռ</item>
+        <item>ջնակա</item>
+        <item>քծենա</item>
+        <item>կիջղա</item>
+        <item>դրամաղտ</item>
+        <item>ոգնիմալֆ</item>
+        <item>ռոթա</item>
+        <item>նաղես</item>
+        <item>նույկնառե</item>
+        <item>տշադահաս</item>
+        <item>նույկնաղղու</item>
+        <item>տյուպակ</item>
+        <item>նույս</item>
+        <item>շխանադրազ</item>
+        <item>կադնաք</item>
+        <item>քյուհակ</item>
+        <item>զարատ</item>
+        <item>ղօջնակա</item>
+        <item>ոդակիմ</item>
+        <item>զարավ</item>
+        <item>թիլբաքփ</item>
+        <item>ծույռա</item>
+        <item>կրանռեձ</item>
+        <item>տակիմիքանութ</item>
+        <item>քնումրեբարեվ</item>
+        <item>քնազարե</item>
+        <item>կատապն</item>
+        <item>նուսերե</item>
+        <item>դնավա</item>
+        <item>մլիֆտլում</item>
+        <item>նուտաղեդ</item>
+        <item>թունախ</item>
+        <item>նարոտսեռ</item>
+        <item>նարատադ</item>
+        <item>նուբավահ</item>
+        <item>տնեկ</item>
+        <item>տիրագրամ</item>
+        <item>ղանքչ</item>
+        <item>ռեհագուզ</item>
+        <item>ցայահաղղու</item>
+        <item>իրյավ</item>
+        <item>րիբմի</item>
+        <item>նաբավարի</item>
+        <item>նիկրակ</item>
+        <item>լեպսառա</item>
+        <item>դնեգել</item>
+        <item>նորտիկ</item>
+        <item>կիտրոխ</item>
+        <item>ճիվակ</item>
+        <item>տիտամ</item>
+        <item>ժրեվահ</item>
+        <item>րեվարհ</item>
+        <item>կասպեկղած</item>
+        <item>կիպաշ</item>
+        <item>ցոմզաբ</item>
+        <item>ճիհադ</item>
+        <item>րակասանվ</item>
+        <item>կարեվա</item>
+        <item>ղեղեհրջ</item>
+        <item>քծավլյաք</item>
+        <item>ջրումակ</item>
+        <item>րեվտս</item>
+        <item>կինղե</item>
+        <item>կարոլոմ</item>
+        <item>կախեմ</item>
+        <item>կրապասու</item>
+        <item>քծավմզակ</item>
+        <item>նաջրշ</item>
+        <item>թույնանիշ</item>
+        <item>կարաշօ</item>
+        <item>ղադնադ</item>
+        <item>միժեռ</item>
+        <item>ռեսիս</item>
+        <item>ռիճնկ</item>
+        <item>պակարիվ</item>
+        <item>դրոցնա</item>
+        <item>տնեցոդ</item>
+        <item>ուգապրկրե</item>
+        <item>ապլուգ</item>
+        <item>րիդնխ</item>
+        <item>թյուծուլ</item>
+        <item>կաիթ</item>
+        <item>կուղեհ</item>
+        <item>քնումզուհ</item>
+        <item>կարտմ</item>
+        <item>քիլա</item>
+        <item>րույբղա</item>
+        <item>ջնիրան</item>
+        <item>քռեշկ</item>
+        <item>ռեմձ</item>
+        <item>նուրագ</item>
+        <item>նուշա</item>
+        <item>ռամա</item>
+        <item>սյուբ</item>
+        <item>տոխալոմ</item>
+        <item>ձնիրբ</item>
+    </string-array>
+    <string-array name="array_not_reversed">
+        <item>հակառակ</item>
+        <item>ակնոց</item>
+        <item>հեռախոս</item>
+        <item>կինոթատրոն</item>
+        <item>մկնդեղ</item>
+        <item>գազար</item>
+        <item>հաշվապահ</item>
+        <item>դարպաս</item>
+        <item>վերնագիր</item>
+        <item>ինֆորմացիա</item>
+        <item>գրպան</item>
+        <item>ճառագայթ</item>
+        <item>պատմություն</item>
+        <item>աղավնի</item>
+        <item>ազատություն</item>
+        <item>միջավայր</item>
+        <item>կենտրոն</item>
+        <item>ննջասենյակ</item>
+        <item>անօգնական</item>
+        <item>տարբերություն</item>
+        <item>տիեզերք</item>
+        <item>աղջամուղջ</item>
+        <item>տոնածառ</item>
+        <item>անծանոթ</item>
+        <item>դասախոս</item>
+        <item>վերելակ</item>
+        <item>մոնիտոր</item>
+        <item>հնազանդ</item>
+        <item>քահանա</item>
+        <item>լեռնագագաթ</item>
+        <item>զամբիկ</item>
+        <item>արևաշող</item>
+        <item>շարժասանդուղք</item>
+        <item>վերնաշապիկ</item>
+        <item>կարմրախայտ</item>
+        <item>ձկնկիթ</item>
+        <item>հրուշակեղեն</item>
+        <item>կոնյակ</item>
+        <item>սիրավեպ</item>
+        <item>վահան</item>
+        <item>սիրամարգ</item>
+        <item>լուսամփոփ</item>
+        <item>աստվածամայր</item>
+        <item>շրթունք</item>
+        <item>շիլաշփոթ</item>
+        <item>ատոմակայան</item>
+        <item>ականապատ</item>
+        <item>անձրևաջուր</item>
+        <item>սառնամանիք</item>
+        <item>փոթորիկ</item>
+        <item>ջրհեղեղ</item>
+        <item>ծիսակարգ</item>
+        <item>թարթիչ</item>
+        <item>բաժակ</item>
+        <item>պանդա</item>
+        <item>ցուցակ</item>
+        <item>մազակալ</item>
+        <item>ձեռնափայտ</item>
+        <item>վերարկու</item>
+        <item>աքլոր</item>
+        <item>շպար</item>
+        <item>օվկիանոս</item>
+        <item>ծովակալ</item>
+        <item>համակարգիչ</item>
+        <item>բառարան</item>
+        <item>գրագետ</item>
+        <item>ֆուտբոլ</item>
+        <item>օպերատոր</item>
+        <item>էկրան</item>
+        <item>ջրիմուռ</item>
+        <item>ինֆուզորիա</item>
+        <item>ատրճանակ</item>
+        <item>գանգուր</item>
+        <item>պայուսակ</item>
+        <item>վիթխարի</item>
+        <item>դինոզավր</item>
+        <item>ժամացույց</item>
+        <item>կաղամբ</item>
+        <item>վզնոց</item>
+        <item>գրատախտակ</item>
+        <item>ցտեսություն</item>
+        <item>դասամատյան</item>
+        <item>սրտակեր</item>
+        <item>սորտավորում</item>
+        <item>հանրահաշիվ</item>
+        <item>վիշապ</item>
+        <item>նկարագրություն</item>
+        <item>նախանձ</item>
+        <item>զեյթուն</item>
+        <item>զեփյուռ</item>
+        <item>մրրիկ</item>
+        <item>գնացուցակ</item>
+        <item>թղթապանակ</item>
+        <item>կայծակ</item>
+        <item>անձեռոցիկ</item>
+        <item>չղջիկ</item>
+        <item>կոնֆետ</item>
+        <item>խնձոր</item>
+        <item>երաժիշտ</item>
+        <item>կիթառ</item>
+        <item>կարտոֆիլ</item>
+        <item>հեռուստացույց</item>
+        <item>հումանիտար</item>
+        <item>ֆոտոապարատ</item>
+        <item>զուգափայտ</item>
+        <item>մարաթոն</item>
+        <item>թոնիր</item>
+        <item>հացատուն</item>
+        <item>տատրակ</item>
+        <item>ագռավ</item>
+        <item>վարագույր</item>
+        <item>վարունգ</item>
+        <item>լոլիկ</item>
+        <item>լավաշ</item>
+        <item>խորոված</item>
+        <item>շաուրմա</item>
+        <item>շոկոլադ</item>
+        <item>գորտ</item>
+        <item>քնքուշ</item>
+        <item>օրացույց</item>
+        <item>հեծանիվ</item>
+        <item>դիմակ</item>
+        <item>լուսացույց</item>
+        <item>հիշողություն</item>
+        <item>արձան</item>
+        <item>արվեստ</item>
+        <item>գինետուն</item>
+        <item>գարեջուր</item>
+        <item>սուրճ</item>
+        <item>վիշտ</item>
+        <item>հայկական</item>
+        <item>Հայաստան</item>
+        <item>ավելուկ</item>
+        <item>թոռնիկ</item>
+        <item>ծաղիկ</item>
+        <item>հայրիկ</item>
+        <item>ծիծեռնակ</item>
+        <item>քույրիկ</item>
+        <item>դեղձան</item>
+        <item>բջիջ</item>
+        <item>սխտոր</item>
+        <item>ատամ</item>
+        <item>լուսին</item>
+        <item>խավար</item>
+        <item>հոգեկան</item>
+        <item>գործիք</item>
+        <item>ստեղնաշար</item>
+        <item>դաշնամուր</item>
+        <item>դաշույն</item>
+        <item>նիզակ</item>
+        <item>նվեր</item>
+        <item>ճամփա</item>
+        <item>մատանի</item>
+        <item>կազմ</item>
+        <item>կրունկ</item>
+        <item>կռունկ</item>
+        <item>կոշիկ</item>
+        <item>հագուստ</item>
+        <item>ստուգարք</item>
+        <item>կենդանի</item>
+        <item>բնություն</item>
+        <item>կապիկ</item>
+        <item>բանակ</item>
+        <item>զինվոր</item>
+        <item>ռազմիկ</item>
+        <item>ծերունի</item>
+        <item>տատիկ</item>
+        <item>տգեղ</item>
+        <item>գեղեցիկ</item>
+        <item>շեփոր</item>
+        <item>թևնոց</item>
+        <item>ջութակ</item>
+        <item>բժիշկ</item>
+        <item>թխահեր</item>
+        <item>զառ</item>
+        <item>կոճակ</item>
+        <item>համակարգ</item>
+        <item>խողովակ</item>
+        <item>անվադող</item>
+        <item>երկրաշարժ</item>
+        <item>թաշկինակ</item>
+        <item>գավաթ</item>
+        <item>թունավոր</item>
+        <item>վայրագ</item>
+        <item>վարսավիր</item>
+        <item>կարագ</item>
+        <item>պանիր</item>
+        <item>մածուն</item>
+        <item>էլեմենտ</item>
+        <item>վահանակ</item>
+        <item>սաղարթախիտ</item>
+        <item>օդափոխիչ</item>
+        <item>լիալուսին</item>
+        <item>սրճեփ</item>
+        <item>հաղթանակ</item>
+        <item>պարտություն</item>
+        <item>հոնք</item>
+        <item>լիցքավորիչ</item>
+        <item>դազգահ</item>
+        <item>ստվարաթուղթ</item>
+        <item>փայլաթիթեղ</item>
+        <item>թիթեռ</item>
+        <item>պարուհի</item>
+        <item>նապաստակ</item>
+        <item>կոկորդիլոս</item>
+        <item>ռնգեղջյուր</item>
+        <item>ականջ</item>
+        <item>անեծք</item>
+        <item>աղջիկ</item>
+        <item>տղամարդ</item>
+        <item>ֆլամինգո</item>
+        <item>աթոռ</item>
+        <item>սեղան</item>
+        <item>եռանկյուն</item>
+        <item>սահադաշտ</item>
+        <item>ուղղանկյուն</item>
+        <item>կապույտ</item>
+        <item>սյուն</item>
+        <item>զարդանախշ</item>
+        <item>քանդակ</item>
+        <item>կահույք</item>
+        <item>տարազ</item>
+        <item>ականջօղ</item>
+        <item>միկադո</item>
+        <item>վարազ</item>
+        <item>փքաբլիթ</item>
+        <item>առյուծ</item>
+        <item>ձեռնարկ</item>
+        <item>թունաքիմիկատ</item>
+        <item>վերաբերմունք</item>
+        <item>երազանք</item>
+        <item>նպատակ</item>
+        <item>երեսուն</item>
+        <item>ավանդ</item>
+        <item>մուլտֆիլմ</item>
+        <item>դեղատուն</item>
+        <item>խանութ</item>
+        <item>ռեստորան</item>
+        <item>դատարան</item>
+        <item>հավաբուն</item>
+        <item>կենտ</item>
+        <item>մարգարիտ</item>
+        <item>չքնաղ</item>
+        <item>զուգահեռ</item>
+        <item>ուղղահայաց</item>
+        <item>վայրի</item>
+        <item>իմբիր</item>
+        <item>իրավաբան</item>
+        <item>կարկին</item>
+        <item>առասպել</item>
+        <item>լեգենդ</item>
+        <item>կիտրոն</item>
+        <item>խորտիկ</item>
+        <item>կավիճ</item>
+        <item>մատիտ</item>
+        <item>հավերժ</item>
+        <item>հրավեր</item>
+        <item>ծաղկեպսակ</item>
+        <item>շապիկ</item>
+        <item>բազմոց</item>
+        <item>դահիճ</item>
+        <item>վնասակար</item>
+        <item>ավերակ</item>
+        <item>ջրհեղեղ</item>
+        <item>քայլվածք</item>
+        <item>կամուրջ</item>
+        <item>ստվեր</item>
+        <item>եղնիկ</item>
+        <item>մոլորակ</item>
+        <item>մեխակ</item>
+        <item>ուսապարկ</item>
+        <item>կազմվածք</item>
+        <item>շրջան</item>
+        <item>շինանյութ</item>
+        <item>օշարակ</item>
+        <item>դանդաղ</item>
+        <item>ռեժիմ</item>
+        <item>սիսեռ</item>
+        <item>կնճիռ</item>
+        <item>վիրակապ</item>
+        <item>անցորդ</item>
+        <item>դոցենտ</item>
+        <item>երկրպագու</item>
+        <item>գուլպա</item>
+        <item>խնդիր</item>
+        <item>լուծույթ</item>
+        <item>թիակ</item>
+        <item>հեղուկ</item>
+        <item>հուզմունք</item>
+        <item>մտրակ</item>
+        <item>ալիք</item>
+        <item>աղբյուր</item>
+        <item>նարինջ</item>
+        <item>կշեռք</item>
+        <item>ձմեռ</item>
+        <item>գարուն</item>
+        <item>աշուն</item>
+        <item>ամառ</item>
+        <item>բույս</item>
+        <item>մոլախոտ</item>
+        <item>բրինձ</item>
+    </string-array>
+
+    <string-array name="array_paint">
+        <item>խնձոր</item>
+        <item>տանձ</item>
+        <item>կայծակ</item>
+        <item>ալիք</item>
+        <item>օվկիանոս</item>
+        <item>ծաղիկ</item>
+        <item>ծաղկաման</item>
+        <item>բաժակ</item>
+        <item>հեռախոս</item>
+        <item>մարդ</item>
+        <item>ակնոց</item>
+        <item>մատիտ</item>
+        <item>գրիչ</item>
+        <item>սեղան</item>
+        <item>աթոռ</item>
+        <item>կին</item>
+        <item>տղամարդ</item>
+        <item>մահճակալ</item>
+        <item>հեռուստացույց</item>
+        <item>լեռ</item>
+        <item>արև</item>
+        <item>լուսին</item>
+        <item>ծառ</item>
+        <item>տուն</item>
+        <item>պատուհան</item>
+        <item>զառ</item>
+        <item>տոնածառ</item>
+        <item>սիրտ</item>
+        <item>աստղ</item>
+        <item>երկինք</item>
+        <item>տիեզերք</item>
+        <item>անձրև</item>
+        <item>գնդակ</item>
+        <item>գնացք</item>
+        <item>եռանկյուն</item>
+        <item>կլոր</item>
+        <item>թուր</item>
+        <item>դանակ</item>
+        <item>պատառաքաղ</item>
+        <item>ափսե</item>
+        <item>վարդ</item>
+        <item>ձեռք</item>
+        <item>ոտք</item>
+        <item>քիթ</item>
+        <item>ժամացույց</item>
+        <item>սունկ</item>
+        <item>մեքենա</item>
+        <item>կիթառ</item>
+        <item>ձու</item>
+        <item>թղթադրամ</item>
+        <item>մանրադրամ</item>
+        <item>գիրք</item>
+        <item>տաբատ</item>
+        <item>աչք</item>
+        <item>բանան</item>
+        <item>ստեղնաշար</item>
+        <item>ատրճանակ</item>
+        <item>լուսացույց</item>
+        <item>ձմեռ</item>
+        <item>մկնիկ</item>
+    </string-array>
+    <string-array name="array_pantomime">
+        <item>ալիք</item>
+        <item>ուշանալ</item>
+        <item>վարսավիր</item>
+        <item>դիմահարդարում</item>
+        <item>հեռախոս</item>
+        <item>կայծակ</item>
+        <item>մաքուր օդ</item>
+        <item>դիրիժոր</item>
+        <item>հարիչ</item>
+        <item>լվացքի մեքենա</item>
+        <item>կոնֆետ</item>
+        <item>ձնեմարդ</item>
+        <item>անձեռոցիկ</item>
+        <item>վերարկու</item>
+        <item>մահանալ</item>
+        <item>նամակ</item>
+        <item>սիրամարգ</item>
+        <item>բաժակ</item>
+        <item>ուտել</item>
+        <item>քնել</item>
+        <item>խմել</item>
+        <item>այրվել</item>
+        <item>բարձ</item>
+        <item>ակնոց</item>
+        <item>պայուսակ</item>
+        <item>փորել</item>
+        <item>հնձել</item>
+        <item>կարել</item>
+        <item>հնդիկ</item>
+        <item>բիլլիարդ</item>
+        <item>արդուկել</item>
+        <item>հագնվել</item>
+        <item>թափահարել</item>
+        <item>դաշնակահար</item>
+        <item>ծիծաղել</item>
+        <item>ծանրամարտ</item>
+        <item>մեքենա</item>
+        <item>գնել</item>
+        <item>ընտրել</item>
+        <item>ժամացույց</item>
+        <item>ուղեղ</item>
+        <item>նեղանալ</item>
+        <item>վիճել</item>
+        <item>ցատկել</item>
+        <item>հերթ</item>
+        <item>ակումբ</item>
+        <item>ավլել</item>
+        <item>պայթել</item>
+        <item>սայթաքել</item>
+        <item>փնտրել</item>
+        <item>նկարել</item>
+        <item>լուսանկարել</item>
+        <item>անիծել</item>
+        <item>երգ լսել</item>
+        <item>բասկետբոլ</item>
+        <item>պատռել</item>
+        <item>կրակել</item>
+        <item>խաղալ</item>
+        <item>ընկնել</item>
+        <item>խոզանակ</item>
+        <item>լվացվել</item>
+        <item>լողանալ</item>
+        <item>լողալ</item>
+        <item>պտտվել</item>
+        <item>փռշտալ</item>
+        <item>պոչ</item>
+        <item>կիթառ</item>
+        <item>տարզան</item>
+        <item>ձուկ</item>
+        <item>ցուլ</item>
+        <item>բարկանալ</item>
+        <item>հորանջել</item>
+        <item>դինոզավր</item>
+        <item>ֆուտբոլ</item>
+        <item>կարատե</item>
+        <item>ծովահեն</item>
+        <item>կարդալ</item>
+        <item>սուրճ</item>
+        <item>հայելի</item>
+        <item>դատավոր</item>
+        <item>ծաղրածու</item>
+        <item>գոլֆ</item>
+        <item>դրամ</item>
+        <item>դոլլար</item>
+        <item>սիրտ</item>
+        <item>շրջան</item>
+        <item>կուրծք</item>
+        <item>ծաղիկ</item>
+        <item>սրսկել</item>
+        <item>դաջվածք</item>
+        <item>կասկածել</item>
+        <item>հասկանալ</item>
+        <item>մտածել</item>
+        <item>գոռալ</item>
+        <item>թռչել</item>
+        <item>գլխացավ</item>
+        <item>ականջակալ</item>
+        <item>խմել</item>
+        <item>պայուսակ</item>
+        <item>ուսապարկ</item>
+        <item>ֆեն</item>
+        <item>գլխարկ</item>
+        <item>տաբատ</item>
+        <item>վերնաշապիկ</item>
+        <item>օծանելիք</item>
+        <item>կատակ</item>
+        <item>դուդուկ</item>
+        <item>կենգուրու</item>
+        <item>ծրագրավորող</item>
+        <item>աչք</item>
+        <item>բարձրակրունկ</item>
+        <item>ապտակել</item>
+        <item>ձկնորս</item>
+        <item>նկարիչ</item>
+        <item>եփել</item>
+        <item>խառնել</item>
+        <item>սրբիչ</item>
+        <item>թավջութակ</item>
+        <item>ատամնաշար</item>
+        <item>ժամ</item>
+        <item>ջերմաչափ</item>
+        <item>ատամնաբույժ</item>
+        <item>հրաժարվել</item>
+        <item>մերժել</item>
+        <item>ծույլ</item>
+        <item>դուդուկահար</item>
+        <item>սպորտսմեն</item>
+        <item>մենակատար</item>
+        <item>տնկել</item>
+        <item>հյուսել</item>
+        <item>արագիլ</item>
+        <item>կանչել</item>
+        <item>խորովել</item>
+        <item>շամփուր</item>
+        <item>մուրալ</item>
+        <item>կիթառահար</item>
+        <item>վարսավիրանոց</item>
+        <item>կռվել</item>
+        <item>գիրք</item>
+        <item>զարկել</item>
+        <item>ժպիտ</item>
+        <item>խոհարար</item>
+        <item>բուժքույր</item>
+        <item>մուրացկան</item>
+        <item>ոսկոր</item>
+        <item>երակ</item>
+        <item>թիկնապահ</item>
+        <item>վարդ</item>
+        <item>փչել</item>
+        <item>սուլել</item>
+        <item>ռեպեռ</item>
+        <item>երազել</item>
+        <item>բանան</item>
+        <item>ամուսնացնել</item>
+        <item>տատիկ</item>
+        <item>սանրվել</item>
+        <item>սառնամանիք</item>
+        <item>մրսել</item>
+        <item>ռոբոտ</item>
+        <item>մերսել</item>
+        <item>օսկար</item>
+        <item>բաղնիք</item>
+        <item>գյուղացի</item>
+        <item>կարի մեքենա</item>
+        <item>օրհներգ</item>
+        <item>բղավել</item>
+        <item>արածել</item>
+        <item>նավակ</item>
+        <item>օորորոց</item>
+        <item>դիմակ</item>
+        <item>ջազվե</item>
+        <item>ասեղ</item>
+        <item>գիրանալ</item>
+        <item>կծել</item>
+        <item>շինարար</item>
+        <item>զսպել</item>
+        <item>ամաչել</item>
+        <item>շրջվել</item>
+        <item>համբույր</item>
+        <item>լիմոն</item>
+        <item>պատժել</item>
+        <item>հեծանիվ</item>
+        <item>սկեյթ</item>
+        <item>գրել</item>
+        <item>արդուկ</item>
+        <item>փողկապ</item>
+        <item>շնչել</item>
+        <item>ծեծել</item>
+        <item>պեպեն</item>
+        <item>կթել</item>
+        <item>բոքս</item>
+        <item>շոշափել</item>
+        <item>մթություն</item>
+        <item>հարավ</item>
+        <item>ձեռքսեղմում</item>
+        <item>ծնոտ</item>
+        <item>մրսել</item>
+        <item>ծափահարություն</item>
+    </string-array>
+    <string-array name="array_nature">
+        <item>ջրվեժ</item>
+        <item>ծառ</item>
+        <item>ծաղիկ</item>
+        <item>գետ</item>
+        <item>փայտ</item>
+        <item>լիճ</item>
+        <item>աղբյուր</item>
+        <item>իջվածք</item>
+        <item>անապատ</item>
+        <item>հարթավայր</item>
+        <item>լեռ</item>
+        <item>լեռնագագաթ</item>
+        <item>ծով</item>
+        <item>օվկիանոս</item>
+        <item>մառախուղ</item>
+        <item>կայծակ</item>
+        <item>ժայռ</item>
+        <item>երկինք</item>
+        <item>ամպ</item>
+        <item>անձրև</item>
+        <item>ձյուն</item>
+        <item>լուսաբաց</item>
+        <item>մայրամուտ</item>
+        <item>ծիածան</item>
+        <item>առվակ</item>
+        <item>խարույկ</item>
+        <item>քամի</item>
+        <item>փոթորիկ</item>
+        <item>ափ</item>
+        <item>բլուր</item>
+        <item>խոտ</item>
+        <item>տերև</item>
+    </string-array>
+    <string-array name="array_home_and_living">
+
+        <item>խոհանոց</item>
+        <item>բազմոց</item>
+        <item>սեղան</item>
+        <item>աթոռ</item>
+        <item>լոգարան</item>
+        <item>ննջասենյակ</item>
+        <item>հյուրասենյակ</item>
+        <item>պատուհան</item>
+        <item>արդուկ</item>
+        <item>կարի մեքենա</item>
+        <item>լվացքի մեքենա</item>
+        <item>փոշեկուլ</item>
+        <item>սփռոց</item>
+        <item>գորգ</item>
+        <item>բարձ</item>
+        <item>մահճակալ</item>
+        <item>միջանցք</item>
+        <item>նկուղ</item>
+        <item>հեռուստացույց</item>
+        <item>հեռակառավարման վահանակ</item>
+        <item>կախիչ</item>
+        <item>գրապահարան</item>
+        <item>ջահ</item>
+        <item>սառնարան</item>
+        <item>գազօջախ</item>
+        <item>սառցարան</item>
+        <item>սպասք</item>
+        <item>միկրոալիքային վառարան</item>
+        <item>ափսե</item>
+        <item>բազկաթոռ</item>
+        <item>պաստառ</item>
+        <item>լուսամփոփ</item>
+    </string-array>
+    <string-array name="array_school">
+
+        <item>դասարան</item>
+        <item>գնահատական </item>
+        <item>թեստ</item>
+        <item>կիսամյակ</item>
+        <item>կրթություն</item>
+        <item>տնային աշխատանք</item>
+        <item>վարժություն</item>
+        <item>գրադարան</item>
+        <item>դասընկեր</item>
+        <item>դասագիրք</item>
+        <item>էջանիշ</item>
+        <item>տետր</item>
+        <item>թեմատիկ աշխատանք</item>
+        <item>թանաք</item>
+        <item>քարտեզ</item>
+        <item>գրչատուփ</item>
+        <item>դասղեկ</item>
+        <item>ռեֆերատ</item>
+    </string-array>
+    <string-array name="array_kitchen">
+
+        <item>բաժակ</item>
+        <item>ափսե</item>
+        <item>պատառաքաղ</item>
+        <item>դանակ</item>
+        <item>լոլիկ</item>
+        <item>վարունգ</item>
+        <item>կաղամբ</item>
+        <item>գազար</item>
+        <item>պղպեղ</item>
+        <item>աղ</item>
+        <item>շաքար</item>
+        <item>կիտրոն</item>
+        <item>շերեփ</item>
+        <item>սառնարան</item>
+        <item>սալօջախ</item>
+        <item>լվացարան</item>
+        <item>բլենդեր</item>
+        <item>թեյնիկ</item>
+        <item>տորթ</item>
+        <item>ալյուր</item>
+        <item>ձավար</item>
+        <item>գազօջախ</item>
+        <item>լավաշ</item>
+        <item>ձեթ</item>
+        <item>կարագ</item>
+        <item>պանիր</item>
+        <item>ձու</item>
+        <item>կարտոֆիլ</item>
+        <item>միս</item>
+        <item>բանան</item>
+        <item>նարինջ</item>
+        <item>կիվի</item>
+    </string-array>
+    <string-array name="array_profession">
+
+        <item>ծրագրավորող</item>
+        <item>բժիշկ</item>
+        <item>ուսուցիչ</item>
+        <item>տնտեսագետ</item>
+        <item>հոգեբան</item>
+        <item>դեղագետ</item>
+        <item>դեղագործ</item>
+        <item>գիտնական</item>
+        <item>ոստիկան</item>
+        <item>ճարտարապետ</item>
+        <item>իրավաբան</item>
+        <item>փաստաբան</item>
+        <item>երգիչ</item>
+        <item>նկարիչ</item>
+        <item>քանդակագործ</item>
+        <item>խոհարար</item>
+        <item>կենսաբան</item>
+        <item>մանրէաբան</item>
+        <item>քաղաքագետ</item>
+        <item>սոցիոլոգ</item>
+        <item>պատմաբան</item>
+        <item>լրագրող</item>
+        <item>բանասեր</item>
+        <item>դատավոր </item>
+        <item>թարգմանիչ</item>
+        <item>դերասան</item>
+        <item>ռեժիսոր</item>
+        <item>երկրաբան</item>
+        <item>տիեզերագնաց</item>
+        <item>շինարար</item>
+        <item>փրկարար</item>
+        <item>աստղագետ</item>
+    </string-array>
+    <string-array name="array_believe">
+
+        <item>նիզակ</item>
+        <item>քարանձավ</item>
+        <item>արքունիք</item>
+        <item>թագ</item>
+        <item>արքա</item>
+        <item>հրովարտակ</item>
+        <item>այրուձի</item>
+        <item>սեպագիր արձանագրություն</item>
+        <item>հայդուկ</item>
+        <item>սպարապետ</item>
+        <item>հելլենիզմ</item>
+        <item>հեծելազոր</item>
+        <item>հեծյալ</item>
+        <item>փարավոն</item>
+        <item>նետ</item>
+        <item>աղեղ</item>
+        <item>Հուլիոս Կեսար</item>
+        <item>Կլեոպատրա</item>
+        <item>ցեղ</item>
+        <item>տոհմ</item>
+        <item>պալեոլիթ</item>
+        <item>մեզոլիթ</item>
+        <item>Արամազդ</item>
+        <item>հեթանոսություն</item>
+        <item>արամերեն</item>
+        <item>Վահագն</item>
+    </string-array>
+
+    <string-array name="array_old_days">
+        <item>նիզակ</item>
+        <item>քարանձավ</item>
+        <item>արքունիք</item>
+        <item>թագ</item>
+        <item>արքա</item>
+        <item>հրովարտակ</item>
+        <item>այրուձի</item>
+        <item>սեպագիր արձանագրություն</item>
+        <item>հայդուկ</item>
+        <item>սպարապետ</item>
+        <item>հելլենիզմ</item>
+        <item>հեծելազոր</item>
+        <item>հեծյալ</item>
+        <item>փարավոն</item>
+        <item>նետ</item>
+        <item>աղեղ</item>
+        <item>Հուլիոս Կեսար</item>
+        <item>Կլեոպատրա</item>
+        <item>ցեղ</item>
+        <item>տոհմ</item>
+        <item>պալեոլիթ</item>
+        <item>մեզոլիթ</item>
+        <item>Արամազդ</item>
+        <item>հեթանոսություն</item>
+        <item>արամերեն</item>
+        <item>Վահագն</item>
+    </string-array>
+
+    <string-array name="array_style">
+        <item>նորաձևություն</item>
+        <item>Կոկո Շանել</item>
+        <item>Գուչի</item>
+        <item>Վոգ</item>
+        <item>Նայք</item>
+        <item>Ադիդաս</item>
+        <item>մոդել</item>
+        <item>թրենդ</item>
+        <item>Բրենդ</item>
+        <item>կլասսիցիզմ</item>
+        <item>ինտերիեր</item>
+        <item>բարոկկո</item>
+        <item>ռոկոկո</item>
+        <item>Դոնաթելա Վերսաչի</item>
+        <item>Զառա</item>
+    </string-array>
+
+    <string-array name="array_culture">
+        <item>Լեոնարդո դա Վինչի</item>
+        <item>Սալվադոր Դալի</item>
+        <item>Մարտիրոս Սարյան</item>
+        <item>Հովհաննես Այվազովսկի</item>
+        <item>Ալեքսանդր Թամանյան</item>
+        <item>գեղանկարչություն</item>
+        <item>Մանրանկարչություն</item>
+        <item>պարարվեստ</item>
+        <item>Արամ Խաչատրյան</item>
+        <item>Կոմիտաս</item>
+        <item>բալետ</item>
+        <item>օպերա</item>
+        <item>Բախ</item>
+        <item>քանդակագործություն</item>
+        <item>Վիվալդի </item>
+        <item>Մոնա Լիզա</item>
+        <item>Վան Գոգ</item>
+        <item>Միքելանջելո</item>
+        <item>կլասիցիզմ</item>
+        <item>նյատուրմորտ</item>
+        <item>Երվանդ Քոչար</item>
+        <item>փիլիսոփայություն</item>
+        <item>գրականություն</item>
+        <item>առասպելաբանությոն</item>
+        <item>Արշիլ Գորկի</item>
+        <item>Փանոս Թերլեմեզյան</item>
+        <item>Հակոբ Կոջոյան</item>
+        <item>Սասունցի Դավիթ</item>
+        <item>կերպարվեստ </item>
+        <item>թատրոն</item>
+        <item>գորգագործություն</item>
+        <item>դիցաբանություն</item>
+    </string-array>
+    <string-array name="array_yes_no">
+        <item>Բնություն</item>
+        <item>Տուն և կենցաղ</item>
+        <item>Դպրոց</item>
+        <item>Սնունդ և խոհանոց</item>
+        <item>Մասնագիտություն</item>
+        <item>Հավատում եմ</item>
+        <item>Հին օրեր</item>
+        <item>Ոճ և նորաձևություն</item>
+        <item>Մշակույթ և արվեստ</item>
+    </string-array>
+    <string-array name="array_alias">
+        <item>Անուններ և կերպարներ</item>
+        <item>Ֆիլմ ու մուլտֆիլմ</item>
+        <item>Խաղեր և սպորտ</item>
+        <item>Առածներ և ասացվածքներ</item>
+        <item>Ստեղծագործություններ</item>
+    </string-array>
+    <string-array name="array_alias_creations">
+        <item>Մեծն Գեթսբի</item>
+        <item>Համլետ</item>
+        <item>Ջեյն Էյր</item>
+        <item>100 տարվա մենություն</item>
+        <item>Մեր թաղը</item>
+        <item>Ես և Նա</item>
+        <item>Սպանված աղավնին</item>
+        <item>Քաջ Նազարը</item>
+        <item>Գևորգ Մարզպետունի</item>
+        <item>Սամվել</item>
+        <item>Խենթը</item>
+        <item>Քաոս</item>
+        <item>Պատվի համար</item>
+        <item>Իմ սիրտը լեռներում է</item>
+        <item>Ավելորդը</item>
+        <item>Ապուշը</item>
+        <item>Կոմս-Մոնտե Քրիստո</item>
+        <item>Դորիան Գրեյի դիմանկարը</item>
+        <item>Աննա Կարենինա</item>
+        <item>Ապրած և չապրած տարիները</item>
+        <item>Պատերազմ և խաղաղություն</item>
+        <item>Ոճիր և պատիժ</item>
+        <item>Ալքիմիկոսը</item>
+        <item>Ես իմ անուշ Հայաստանի</item>
+        <item>Խաչագողի հիշատակարանը</item>
+        <item>Արտիստը</item>
+        <item>Հասարակաց որդեգիրը</item>
+        <item>Լճակ</item>
+        <item>Աբու Լալա Մահարի</item>
+        <item>Անլռելի զանգակատուն</item>
+        <item>Շելկունչիկ</item>
+        <item>Իններորդ ալիք</item>
+        <item>Փոքրիկ իշխան</item>
+        <item>Անուշ</item>
+        <item>Փարիզի Աստվածամոր տաճարը</item>
+        <item>Կարմեն</item>
+        <item>Հարրի Փոթեր</item>
+        <item>Ռոմեո և Ջուլիետ</item>
+        <item>Փարվանա</item>
+        <item>Ախթամար</item>
+        <item>Գայանե (բալետ)</item>
+        <item>Սուսերով պար (բալետ)</item>
+        <item>Լուսնի սոնատ</item>
+        <item>Վարդանանք</item>
+        <item>Վերք Հայաստանի</item>
+    </string-array>
+
+    <string-array name="array_alias_world">
+        <item>Աթենք</item>
+        <item>Ալժիր</item>
+        <item>Ալպեր</item>
+        <item>Ֆինլանիդա</item>
+        <item>Ամազոն</item>
+        <item>Ամերիկա</item>
+        <item>Անգլիա</item>
+        <item>Անի</item>
+        <item>Անտարկտիդա</item>
+        <item>Ապարան</item>
+        <item>Ասիա</item>
+        <item>Ավստրալիա</item>
+        <item>Ավստրիա</item>
+        <item>Ատլանտյան օվկիաբոս</item>
+        <item>Արաբական թերակղզի</item>
+        <item>Արագած</item>
+        <item>Ֆրանսիա</item>
+        <item>Արագածոտն</item>
+        <item>Արարատ</item>
+        <item>Քուվեյթ</item>
+        <item>Արաքս</item>
+        <item>Արգենտինա</item>
+        <item>Արտաշատ</item>
+        <item>Արցախ</item>
+        <item>Աֆղանստան</item>
+        <item>Աֆրիկա</item>
+        <item>Բանգլադեշ</item>
+        <item>Բելառուսիա</item>
+        <item>Բեռլին</item>
+        <item>Բրազիլիա</item>
+        <item>Գավառ</item>
+        <item>Գեղարքունիք</item>
+        <item>Գերմանիա</item>
+        <item>Գլենդել</item>
+        <item>Գյումրի</item>
+        <item>Գրենլանդիա</item>
+        <item>Դանիա</item>
+        <item>Դեբեդ</item>
+        <item>Դելի</item>
+        <item>Դիլիջան</item>
+        <item>Դվին</item>
+        <item>Եգիպտոս</item>
+        <item>Եղեգնաձոր</item>
+        <item>Երևան</item>
+        <item>Երուսաղեմ</item>
+        <item>Եփրատ</item>
+        <item>Էջմիածին</item>
+        <item>Էվերեստ</item>
+        <item>Թունիս</item>
+        <item>Թուրքիա</item>
+        <item>Ժնև</item>
+        <item>Ինդոնեզիա</item>
+        <item>Իռլանդիա</item>
+        <item>Իսպանիա</item>
+        <item>Իսրայել</item>
+        <item>Իրան</item>
+        <item>Իրաք</item>
+        <item>Լապլանդիա</item>
+        <item>Լաս Վեգաս</item>
+        <item>Լատվիա</item>
+        <item>Լեհաստան</item>
+        <item>Լենա</item>
+        <item>Լեոն</item>
+        <item>Լիբանան</item>
+        <item>Լիսաբոն</item>
+        <item>Լիտվա</item>
+        <item>Լոնդոն</item>
+        <item>Լոռի</item>
+        <item>Լոս Անջելես</item>
+        <item>Խաղաղ օվկ</item>
+        <item>Ծաղկաձոր</item>
+        <item>Կալիֆորնիա</item>
+        <item>Կանադա</item>
+        <item>Կասպից ծով</item>
+        <item>Կարիբյան ծով</item>
+        <item>Կարմիր ծով</item>
+        <item>Կիլիկիա</item>
+        <item>Կիլիմանջարո</item>
+        <item>Կիպրոս</item>
+        <item>Կոլումբիա</item>
+        <item>Կոնգո</item>
+        <item>Կովկաս</item>
+        <item>Կոտայք</item>
+        <item>Հայաստան</item>
+        <item>Հարավային Կորեա</item>
+        <item>Հյս. Կորեա</item>
+        <item>Հնդկական օվկ</item>
+        <item>Հնդկաստան</item>
+        <item>Հոնկոնգ</item>
+        <item>Հունգարիա</item>
+        <item>Հռոմ</item>
+        <item>Հրազդան</item>
+        <item>Ղազախստան</item>
+        <item>Ճապոնիա</item>
+        <item>Մադագասկար</item>
+        <item>Մալդիվներ</item>
+        <item>Մարսել</item>
+        <item>Մարտունի</item>
+        <item>Մեծ Բրիտանիա</item>
+        <item>Մեռյալ ծով</item>
+        <item>Մեքսիկա</item>
+        <item>Միջերկրական ծով</item>
+        <item>Մոնղոլիա</item>
+        <item>Մոսկվա</item>
+        <item>Յանցզի</item>
+        <item>Նայրոբի</item>
+        <item>Նեղոս</item>
+        <item>Նեպալ</item>
+        <item>Նիգերիա</item>
+        <item>Նիդերլանդներ</item>
+        <item>Նյու Յորք</item>
+        <item>Շանհայ</item>
+        <item>Շաքիի ջրվեժ</item>
+        <item>Շվեդիա</item>
+        <item>Շվեյցարիա</item>
+        <item>Շրի-Լանկա</item>
+        <item>Ուզբեկստան</item>
+        <item>Չեխիա</item>
+        <item>Չիլի</item>
+        <item>Չիլի</item>
+        <item>Չիկագո</item>
+        <item>Չինաստան</item>
+        <item>Պակիստան</item>
+        <item>Պեկին</item>
+        <item>Պորտուգալիա</item>
+        <item>Ջերմուկ</item>
+        <item>Ռիո</item>
+        <item>Սահարա</item>
+        <item>Սան Մարինո</item>
+        <item>Սանկտ Պետերբուրգ</item>
+        <item>Սեուլ</item>
+        <item>Սև ծով</item>
+        <item>Սևանա լիճ</item>
+        <item>Սինգապուր</item>
+        <item>Սիրիա</item>
+        <item>Սյունիք</item>
+        <item>Սպիտակ</item>
+        <item>Ստամբուլ</item>
+        <item>Ստեփանակերտ</item>
+        <item>Վանաձոր</item>
+        <item>Վատիկան</item>
+        <item>Վենետիկ</item>
+        <item>Վիետնամ</item>
+        <item>Վիկտորիա ջրվեժ</item>
+        <item>Վրաստան</item>
+        <item>Տաթև</item>
+        <item>Տաջիկստան</item>
+        <item>Տավուշ</item>
+        <item>Տիգրանակերտ</item>
+        <item>Տիգրիս</item>
+        <item>Տոկիո</item>
+        <item>Փարիզ</item>
+    </string-array>
+
+    <string-array name="array_alias_proverbs_and_sayings">
+        <item>Աշխատանքը գեղեցկացնում է մարդուն։</item>
+        <item>Աշխարհի շինողն ու քանդողը լեզուն է։</item>
+        <item>Ասա ով է ընկերդ , ասեմ ով ես դու։</item>
+        <item>Արգելված պտուղը համով կլինի։</item>
+        <item>Արջը յոթ երգ գիտի, յոթն էլ տանձի մասին։</item>
+        <item>Գայլի գլխին Ավետարան են կարդում, ասում է՝ շուտ արէ՛ք, հոտս գնաց։</item>
+        <item>Գյուղ կանգնի, գերան կկոտրի։</item>
+        <item>Գնա մեռի, արի սիրեմ։</item>
+        <item>Գող՝ սիրտը դող։</item>
+        <item>Երկաթը տաք-տաք կծեծեն։</item>
+        <item>Եփած հավի ծիծաղը կգա։</item>
+        <item>Էշի ականջում քնել է։</item>
+        <item>Էշն ինչ գիտի նուշն ինչ է։</item>
+        <item>Ընկերովի մահը հարսանիք է։</item>
+        <item>Թրի կտրածը կլավանա, լեզվի կտրածը չի լավանա։</item>
+        <item>Ժամանակը ոսկի է։</item>
+        <item>Ինչ ցանես, այն էլ կհնձես։</item>
+        <item>Լավ է ուշ, քան երբեք։</item>
+        <item>Լավություն արա ու ջուրը գցի։</item>
+        <item>Լեզուդ չլիներ, ագռավները աչքերդ կհանեին։</item>
+        <item>Կատվի խաղը՝ մկան մահը։</item>
+        <item>Կարմիր կովը կաշին չի փոխի։</item>
+        <item>Ճտերն աշնանն են հաշվում։</item>
+        <item>Մարդու աչքը դուրս գա, անունը դուրս չգա։</item>
+        <item>Մի ծաղիկով գարուն չի գա։</item>
+        <item>Մորը տես, աղջկան ուզի։</item>
+        <item>Շաբաթը ուրբաթից շուտ եկավ։</item>
+        <item>Շան անունը տուր ու փետը վերցրու ձեռքդ։</item>
+        <item>Ուշ լինի, նուշ լինի։</item>
+        <item>Ուս ուսի որ տանք, սարեր շուռ կտանք։</item>
+        <item>Ուրիշի համար փոս փորողը ինքն է ընկնում մեջը։</item>
+        <item>Չկա չարիք՝ առանց բարիք։</item>
+        <item>Պտուղը ծառից հեռու չի ընկնում։</item>
+        <item>Ջրի բերածը ջուրն էլ կտանի։</item>
+        <item>Քաղցր լեզուն օձին բնից կհանի։</item>
+        <item>Քանի լեզու գիտես, այնքան մարդ ես։</item>
+        <item>ՔեՖ անողին՝ քեֆ չի պակսիլ։</item>
+        <item>Օձի կծածը կլավանա, լեզվի կծածը չի լավանա։</item>
+    </string-array>
+
+    <string-array name="array_alias_sport">
+        <item>Զառախաղ</item>
+        <item>ԱյլԿերպ</item>
+        <item>ԶիլԶառ</item>
+        <item>Սմայլիշ</item>
+        <item>Դոմինո</item>
+        <item>Բլոտ</item>
+        <item>Նարդի</item>
+        <item>Շաշկի</item>
+        <item>Շախմատ</item>
+        <item>Մոնոպոլիա</item>
+        <item>Դե խաղա</item>
+        <item>Տաբու</item>
+        <item>Լոտո</item>
+        <item>Ունո</item>
+        <item>Պոկեր</item>
+        <item>Ծովամարտ</item>
+        <item>Սեղանի թենիս</item>
+        <item>Սեղանի ֆուտբոլ</item>
+        <item>Փազլ</item>
+        <item>Սուդոկու</item>
+        <item>Լեգո</item>
+        <item>Մայնկրաֆտ</item>
+        <item>Ֆիֆա</item>
+        <item>Կրեստիկ-նոլիկ</item>
+        <item>Հալամուլա</item>
+        <item>Վոլլեյբոլ</item>
+        <item>Մաֆիա</item>
+        <item>Լող</item>
+        <item>ֆուտբոլ</item>
+        <item>բոքս</item>
+        <item>Բասկետբոլ</item>
+        <item>Բատմինտոն</item>
+        <item>թենիս</item>
+        <item>գոլֆ</item>
+        <item>Հոկեյ</item>
+        <item>Կարատե</item>
+        <item>բոուլինգ</item>
+        <item>բիլիարդ</item>
+        <item>բռնցքամարտ</item>
+        <item>սումո</item>
+        <item>հենդբոլ</item>
+        <item>ջրացատկ</item>
+        <item>գեղասահք</item>
+        <item>ջրագնդակ</item>
+        <item>կյորլինգ</item>
+        <item>ըմբշամարտ</item>
+        <item>ծանրամարտ</item>
+        <item>ձյուդո</item>
+        <item>տեկվոնդո</item>
+        <item>ռեգբի</item>
+        <item>սուսերամարտ</item>
+    </string-array>
+
+    <string-array name="array_alias_movies">
+
+        <item>Առյուծ արքա</item>
+        <item>Մուլան</item>
+        <item>Գահերի խաղը</item>
+        <item>Տանը մենակ</item>
+        <item>Մատանիների տիրակալը</item>
+        <item>Հարրի Փոթեր</item>
+        <item>Ինտերստելլար</item>
+        <item>Մատրից</item>
+        <item>Կնքահայրը</item>
+        <item>Սառցե սիրտը</item>
+        <item>Սարդ մարդը</item>
+        <item>Տարզան</item>
+        <item>Մաուգլի</item>
+        <item>Թոմը և Ջերրին</item>
+        <item>Գտնված երազ</item>
+        <item>Մինիոնները</item>
+        <item>Լեոն</item>
+        <item>Տերմինատոր</item>
+        <item>Ռեմբո</item>
+        <item>Ոսկե ցլիկ</item>
+        <item>Ուրախ ավտոբուս</item>
+        <item>Գիքոր</item>
+        <item>Խաթաբալա</item>
+        <item>Մեր բակը</item>
+        <item>Տղամարդիկ</item>
+        <item>Նամուս</item>
+        <item>Պատվի համար</item>
+        <item>Քաոս</item>
+        <item>Սպանված աղավնի</item>
+        <item>Կյանք ու կռիվ</item>
+        <item>Թղթե տունը</item>
+        <item>Տիտանիկ</item>
+        <item>Շերլոկ Հոլմս</item>
+        <item>Աստղային պատերազմներ</item>
+        <item>Սոված խաղեր</item>
+        <item>Ալլադին</item>
+        <item>Նարուտո</item>
+        <item>Վինքս</item>
+        <item>Գեղեցկուհին ու հրեշը</item>
+        <item>Մադագասկար</item>
+        <item>Հերկուլես</item>
+        <item>Արիել</item>
+        <item>Վիննի Թուխ</item>
+        <item>101 դալմատիններ</item>
+        <item>Սպիտակաձյունիկն ու 7 թզուկները</item>
+        <item>Պինոկիո</item>
+        <item>Մոխրոտը</item>
+        <item>Աստղերն են մեղավոր</item>
+        <item>Կլոն</item>
+        <item>Բրիդագա</item>
+        <item>Ավատար</item>
+        <item>Կտոր մը երկինք</item>
+        <item>Մալեֆիսենտա</item>
+        <item>Կապիտան Ամերիկա</item>
+        <item>Սուպերմեն</item>
+        <item>Բեթմեն</item>
+        <item>Գլադիատորը</item>
+        <item>Դժվար ապրուստ</item>
+    </string-array>
+
+    <string-array name="array_alias_characters">
+        <item>Ադել</item>
+        <item>Վարդան Մամիկոնյան</item>
+        <item>Մեսսի</item>
+        <item>Մ․ Ջեքսոն</item>
+        <item>Իլոն Մասկ</item>
+        <item>Մ․ Թետչեր</item>
+        <item>Ֆ․ Սինատրա</item>
+        <item>Անջելինա Ջոլի</item>
+        <item>Լ․Դիկապրիո</item>
+        <item>Բրեդ Փիթ</item>
+        <item>Վազգեն Սարգսյան</item>
+        <item>Մոնթե Մելքոնյան</item>
+        <item>Ք․Ռոնալդու</item>
+        <item>Ուիլ Սմիթ</item>
+        <item>Ջոնի Դեպ</item>
+        <item>Մոցարտ</item>
+        <item>Բախ</item>
+        <item>Կոմիտաս</item>
+        <item>Բեթհովեն</item>
+        <item>Վիվալդի</item>
+        <item>Չայկովսկի</item>
+        <item>Պիկասսո</item>
+        <item>Դա Վինչի</item>
+        <item>Հարրի Փոթեր</item>
+        <item>Միքելանջելո</item>
+        <item>Դալի</item>
+        <item>Ա․ Խաչատրյան</item>
+        <item>Ա․ Բաբաջանյան</item>
+        <item>Կլոդ Մոնե</item>
+        <item>Չերչիլ</item>
+        <item>Հիթլեր</item>
+        <item>Ստալին</item>
+        <item>Մուսսոլինի</item>
+        <item>Տիգրան Մեծ</item>
+        <item>Աշոտ Երկաթ</item>
+        <item>Տիգրան Պետրոսյան</item>
+        <item>Վասկո դա Գամմա</item>
+        <item>Այվազովսկի</item>
+        <item>Գ․ Նարեկացի</item>
+        <item>Հ․ Թումանյան</item>
+        <item>Շառլ Ազնավուր</item>
+        <item>Նապոլեոն</item>
+        <item>Ալեքսանդր Մակեդոնացի</item>
+        <item>Ներսես Մեծ</item>
+        <item>Մհեր Մկրտչյան</item>
+        <item>Դոնալդ Թրամփ</item>
+        <item>Սոս Ջանիբեկյան</item>
+        <item>Վիկտոր Համբարձումյան</item>
+        <item>Ռիհաննա</item>
+        <item>Բեյոնսե</item>
+        <item>Նժդեհ</item>
+        <item>Շիրվանզադե</item>
+        <item>Քիմ Քարդաշյան</item>
+        <item>Արամ Ասատրյան</item>
+        <item>Սանտա Կլաուս</item>
+        <item>Դրեյք</item>
+        <item>Նար-Դոս</item>
+        <item>Եկատերինա թագուհի</item>
+        <item>Պարույր Սևակ</item>
+        <item>Ջոն Լենոն</item>
+        <item>Տիգրան Մանսուրյան</item>
+    </string-array>
+
+</resources>
