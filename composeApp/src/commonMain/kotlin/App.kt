@@ -1,13 +1,15 @@
+
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import presentation.screens.groups.GroupsScreen
+import presentation.screens.onboarding.OnboardScreen
 
 @Composable
 @Preview
 fun App() {
     MaterialTheme {
-        GroupsScreen()
+        OnboardScreen()
+//        GroupsScreen()
 //        MainScreen()
 //        DrawingScreen("Bear")
     }
