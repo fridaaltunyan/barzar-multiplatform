@@ -1,5 +1,6 @@
 package presentation.components
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
@@ -12,7 +13,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.OutlinedTextField
+import androidx.compose.foundation.text2.BasicTextField2
+import androidx.compose.foundation.text2.input.rememberTextFieldState
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -23,6 +25,7 @@ import barzar.composeapp.generated.resources.Res
 import barzar.composeapp.generated.resources.ic_cup
 import org.jetbrains.compose.resources.painterResource
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun PointComponent() {
     Box(
@@ -46,12 +49,12 @@ fun PointComponent() {
                 modifier = Modifier.size(40.dp).padding(start = 16.dp)
             )
 
-            OutlinedTextField(
-                value = "30",
-                onValueChange = {},
-                label = { Text("Label") },
+            val point = rememberTextFieldState("30")
+            // TODO: Change into spinner
+            BasicTextField2(
+                state = point,
                 modifier = Modifier
-                    .padding(end = 8.dp)
+                    .padding(12.dp)
                     .weight(1f)
             )
         }

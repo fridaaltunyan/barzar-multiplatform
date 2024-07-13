@@ -8,8 +8,10 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Button
+import androidx.compose.material3.ButtonDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import barzar.composeapp.generated.resources.Res
 import barzar.composeapp.generated.resources.ic_game_rules
@@ -26,7 +28,9 @@ fun MainNavBar() {
         ) {
             Button(
                 onClick = { /* TODO: Handle click */ },
-                modifier = Modifier.padding(start = 16.dp)
+                modifier = Modifier.padding(start = 16.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Transparent),
+                elevation = null,
             ) {
                 Image(
                     modifier = Modifier.size(30.dp),
@@ -37,7 +41,9 @@ fun MainNavBar() {
 
             Button(
                 onClick = { /* TODO: Handle click */ },
-                modifier = Modifier.padding(end = 16.dp)
+                modifier = Modifier.padding(end = 16.dp),
+                colors = ButtonDefaults.buttonColors(containerColor = Color.Transparent),
+                elevation = null,
             ) {
                 Image(
                     modifier = Modifier.size(30.dp),

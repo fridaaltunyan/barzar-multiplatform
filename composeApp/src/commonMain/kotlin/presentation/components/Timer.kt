@@ -1,5 +1,6 @@
 package presentation.components
 
+import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -13,6 +14,8 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text2.BasicTextField2
+import androidx.compose.foundation.text2.input.rememberTextFieldState
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -82,6 +85,7 @@ fun GroupTimePointBackgroundComponent(
     }
 }
 
+@OptIn(ExperimentalFoundationApi::class)
 @Composable
 fun TimeComponent() {
     Box(
@@ -104,13 +108,12 @@ fun TimeComponent() {
                 contentDescription = "Top Start Image",
                 modifier = Modifier.size(40.dp).padding(start = 16.dp)
             )
-
-            OutlinedTextField(
-                value = "01:00",
-                onValueChange = {},
-                label = { Text("Label") },
+            // TODO: Change into date picker
+            val time = rememberTextFieldState("01:00")
+            BasicTextField2(
+                state = time,
                 modifier = Modifier
-                    .padding(end = 8.dp)
+                    .padding(12.dp)
                     .weight(1f)
             )
         }

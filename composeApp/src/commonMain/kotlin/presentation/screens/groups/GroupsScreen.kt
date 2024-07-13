@@ -23,7 +23,10 @@ import presentation.components.TimeComponent
 
 @Composable
 fun GroupsScreen() {
-    Column(modifier = Modifier.fillMaxSize()) {
+    Column(
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
         MainNavBar()
         Spacer(
             modifier = Modifier.height(
