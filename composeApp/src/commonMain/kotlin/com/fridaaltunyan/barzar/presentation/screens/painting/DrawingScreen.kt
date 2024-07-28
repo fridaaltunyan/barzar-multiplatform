@@ -1,4 +1,4 @@
-package presentation.screens.painting
+package com.fridaaltunyan.barzar.presentation.screens.painting
 
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.gestures.detectDragGestures

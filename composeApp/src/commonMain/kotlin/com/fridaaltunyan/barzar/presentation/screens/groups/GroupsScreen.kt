@@ -1,4 +1,4 @@
-package presentation.screens.groups
+package com.fridaaltunyan.barzar.presentation.screens.groups
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -17,9 +17,9 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import presentation.components.MainNavBar
-import presentation.components.PointComponent
-import presentation.components.TimeComponent
+import com.fridaaltunyan.barzar.presentation.components.MainNavBar
+import com.fridaaltunyan.barzar.presentation.components.PointComponent
+import com.fridaaltunyan.barzar.presentation.components.TimeComponent
 
 @Composable
 fun GroupsScreen() {

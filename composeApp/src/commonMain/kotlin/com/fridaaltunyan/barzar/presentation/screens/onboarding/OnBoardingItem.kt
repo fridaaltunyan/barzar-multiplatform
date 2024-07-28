@@ -1,4 +1,4 @@
-package presentation.screens.onboarding
+package com.fridaaltunyan.barzar.presentation.screens.onboarding
 
 import barzar.composeapp.generated.resources.Res
 import barzar.composeapp.generated.resources.welcome_title

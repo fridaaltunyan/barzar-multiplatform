@@ -1,4 +1,4 @@
-package presentation.screens.onboarding
+package com.fridaaltunyan.barzar.presentation.screens.onboarding
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

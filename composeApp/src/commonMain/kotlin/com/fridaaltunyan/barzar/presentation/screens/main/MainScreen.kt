@@ -1,4 +1,4 @@
-package presentation.screens.main
+package com.fridaaltunyan.barzar.presentation.screens.main
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background

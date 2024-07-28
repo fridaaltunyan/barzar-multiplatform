@@ -1,4 +1,4 @@
-package presentation.screens.groups
+package com.fridaaltunyan.barzar.presentation.screens.groups
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.border

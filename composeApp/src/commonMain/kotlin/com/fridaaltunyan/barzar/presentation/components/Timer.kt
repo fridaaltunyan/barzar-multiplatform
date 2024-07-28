@@ -1,4 +1,4 @@
-package presentation.components
+package com.fridaaltunyan.barzar.presentation.components
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
